@@ -1,1 +1,4 @@
-# OOP-Library-System
+You will build a Library Lending System: a menu-driven console application that manages a catalog of library items, registers members, and handles borrowing and returning.
+The library holds different kinds of items (Books, Magazines, DVDs). They are not all the same — each kind is borrowed for a different number of days. But the library should be able to store them all together, list them together, and lend them out through one shared type, without caring which exact kind each item is.
+That shared type is the main idea you must demonstrate: adding a new kind of item later should not force you to rewrite the library.
+A member can only borrow a limited number of items, cannot borrow an item that is already out, and cannot return something they never borrowed. Each of these rules is enforced with an exception so the program never crashes on bad input.
